@@ -19,7 +19,7 @@ export default class Now {
 			cmd: `listen-${type}`
 		});
 		
-		this.events.addEventListener(type, ev => listener(ev.detail));
+		this.#events.addEventListener(type, ev => listener(ev.detail));
 	}
 
 	onMessage({ cmd, msg, type }) {
