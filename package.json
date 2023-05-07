@@ -1,0 +1,17 @@
+{
+  "name": "now",
+  "version": "1.0.0",
+  "description": "Node on browser",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.17.18"
+  }
+}
