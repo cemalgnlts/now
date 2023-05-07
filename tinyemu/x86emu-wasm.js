@@ -923,7 +923,7 @@ function isDataURI(filename) {
 
 function integrateWasmJS() {
     let wasmTextFile = "x86emu-wasm.wast";
-    let wasmBinaryFile = "tinyemu/x86emu-wasm.wasm";
+    let wasmBinaryFile = "now/tinyemu/x86emu-wasm.wasm";
     let asmjsCodeFile = "x86emu-wasm.temp.asm.js";
 	
     if (!isDataURI(wasmTextFile)) {
