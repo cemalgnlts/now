@@ -31,7 +31,7 @@ let consoleWrite = null;
 let netSetCarrier, netWritePacket;
 
 const VMParams = {
-	cfg: `${location.origin}/tinyemu/alpine-x86.cfg`,
+	cfg: `${location.origin}/now/tinyemu/alpine-x86.cfg`,
 	memSize: 192,
 	cmdline: "",
 	width: 0, // No GUI
