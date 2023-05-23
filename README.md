@@ -1,7 +1,9 @@
 # now
 Node on Web.
 
-Play Node completely offline in your browser.
+Use Nodejs freely in your browser with Linux infrastructure.
+
+> :warning: The project is currently in the update phase. This version will not be used in next commit.
 
 ## Preview
 
